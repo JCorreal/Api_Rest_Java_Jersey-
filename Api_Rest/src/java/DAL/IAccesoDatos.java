@@ -7,7 +7,7 @@ public interface IAccesoDatos {
     
   public List<Usuario> ObtenerListadoUsuarios();
   public Usuario ObtenerUsuario (int DatoBuscar);
-  public int GuardarUsuario(Usuario usuaurio);
+  public int GuardarUsuario(Usuario usuario);
   public int EliminarUsuario(int DatoEliminar);
   
 }
